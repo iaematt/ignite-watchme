@@ -7,15 +7,21 @@ button {
   width: 100%;
 
   border: 0;
-  background: var(--background-button);
+  background: #805ad5;
   padding: 1.1875rem 2rem;
   border-radius: 0.25rem;
 
   font-size: 1.125rem;
-  color: var(--white);
+  color: #e9d8fd;
 
   &:hover {
-    background: var(--background-button2);
+    background: #6b46c1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    background: #553c9a;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   }
 
   transition: background 200ms;
@@ -29,7 +35,7 @@ button {
   }
 
   &.selected {
-    background: var(--background-button2);
-    color: var(--yellow);
+    background: #553c9a;
+    color: #e9d8fd;
   }
 }
